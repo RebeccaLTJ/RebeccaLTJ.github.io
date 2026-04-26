@@ -16,20 +16,20 @@ sections:
       show_scroll_indicator: true
       typewriter:
         enable: true
-        prefix: "I build"
+        prefix: "I work on"
         strings:
-          - "full-stack web apps"
-          - "scalable APIs"
-          - "beautiful UIs"
+          - "machine learning in healthcare"
+          - "Parkinson's disease research"
+          - "real-world evidence"
           - "open source tools"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
       cta_buttons:
-        - text: View My Work
+        - text: View Projects
           url: "#projects"
           icon: arrow-down
-        - text: Get In Touch
+        - text: Contact Me
           url: "#contact"
           icon: envelope
     design:
@@ -47,8 +47,8 @@ sections:
   - block: portfolio
     id: projects
     content:
-      title: "Featured Projects"
-      subtitle: "A selection of my recent work"
+      title: "Research Projects"
+      subtitle: "Machine learning and statistical modeling in Parkinson's disease"
       count: 0
       filters:
         folders:
@@ -56,12 +56,12 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Full-Stack
-          tag: Full-Stack
-        - name: Frontend
-          tag: Frontend
-        - name: Backend
-          tag: Backend
+        - name: Machine Learning
+          tag: ML
+        - name: Real-World Evidence
+          tag: RWE
+        - name: Bioinformatics
+          tag: bioinfo
       default_button_index: 0
       # Archive link auto-shown if more projects exist than 'count' above
       # archive:
@@ -81,49 +81,37 @@ sections:
   - block: tech-stack
     id: skills
     content:
-      title: "Tech Stack"
-      subtitle: "Technologies I use to build things"
+      title: "Methods & Tools"
+      subtitle: "Techniques used in my research"
       categories:
-        - name: Languages
+        - name: Methods
           items:
-            - name: TypeScript
+            - name: Machine Learning
               icon: devicon/typescript
-            - name: JavaScript
+            - name: Longitudinal Data Analysis
               icon: devicon/javascript
+            - name: Gene regulatory network
+              icon: devicon/python
+        - name: Tools
+          items:
             - name: Python
               icon: devicon/python
-            - name: Go
-              icon: devicon/go
-        - name: Frontend
-          items:
-            - name: React
-              icon: devicon/react
-            - name: Next.js
+            - name: R
               icon: devicon/nextjs
-            - name: Tailwind CSS
+            - name: SAS
               icon: devicon/tailwindcss
-            - name: Alpine.js
+            - name: SQL
               icon: devicon/alpinejs
-        - name: Backend
+            - name: HPC
+              icon: devicon/alpinejs
+        - name: Domains
           items:
-            - name: Node.js
+            - name: Real-World Evidence
               icon: devicon/nodejs
-            - name: Express
+            - name: Parkinson's Disease
               icon: devicon/express
-            - name: PostgreSQL
+            - name: Neurodegenerative Disorders
               icon: devicon/postgresql
-            - name: Redis
-              icon: devicon/redis
-        - name: DevOps
-          items:
-            - name: Docker
-              icon: devicon/docker
-            - name: AWS
-              icon: devicon/amazonwebservices
-            - name: GitHub Actions
-              icon: brands/github
-            - name: Vercel
-              icon: devicon/vercel
     design:
       style: grid
       show_levels: false
@@ -141,42 +129,91 @@ sections:
       title: Experience
       date_format: Jan 2006
       items:
-        - title: Senior Software Engineer
-          company: Tech Corp
-          company_url: ''
+        - title: Postdoctoral Researcher
+          company: Luxembourg Centre for Systems Biomedicine (LCSB)
+          company_url: 'https://www.uni.lu/lcsb-en/'
           company_logo: ''
-          location: San Francisco, CA
-          date_start: '2023-01-01'
+          location: Belval, Luxembourg
+          date_start: '2025-04-01'
           date_end: ''
           description: |2-
-            * Lead development of microservices architecture serving 1M+ users
-            * Improved API response time by 40% through optimization
-            * Mentored team of 5 junior developers
-            * Tech stack: React, Node.js, PostgreSQL, AWS
-        - title: Full-Stack Developer
-          company: Startup Inc
-          company_url: ''
+            * Develop knowledge-guided and multi-scale machine learning frameworks integrating clinical data and multi-omics data
+            * Construct and analyze gene regulatory networks to enhance biological interpretability
+            * Apply causal machine learning approaches to identify robust risk factor across heterogeneous datasets
+            * Integrate high-dimensional data (e.g., transcriptomics, metabolomics) for disease modeling and patient stratification
+            * Collaborate with interdisciplinary teams across computational biology, data science, and clinical research
+        - title: Doctoral Researcher
+          company: Luxembourg Centre for Systems Biomedicine (LCSB)
+          company_url: 'https://www.uni.lu/lcsb-en/'
           company_logo: ''
-          location: Remote
-          date_start: '2021-06-01'
-          date_end: '2022-12-31'
+          location: Belval, Luxembourg
+          date_start: '2022-02-01'
+          date_end: '2025-03-31'
           description: |2-
-            * Built and deployed 3 production applications from scratch
-            * Implemented CI/CD pipeline reducing deployment time by 60%
-            * Collaborated with design team on UI/UX improvements
-            * Tech stack: Next.js, Express, MongoDB, Docker
-        - title: Junior Developer
-          company: Web Agency
-          company_url: ''
+            * Developed machine learning and time-to-complication models to predict motor and cognitive complications
+            * Performed cross-cohort validation across independent datasets to assess robustness and generalizability
+            * Identified clinical predictors of disease progression using large-scale longitudinal datasets
+            * Applied interpretable machine learning methods to improve transparency and clinical relevance
+            * Designed analytical pipelines for integrating multi-source clinical data
+        - title: Real-World Evidence (RWE) Data Scientist
+          company: Novartis
+          company_url: 'https://www.novartis.com/'
           company_logo: ''
-          location: New York, NY
-          date_start: '2020-01-01'
-          date_end: '2021-05-31'
+          location: Petaling Jaya, Malaysia
+          date_start: '2019-07-01'
+          date_end: '2021-11-30'
           description: |2-
-            * Developed client websites using modern web technologies
-            * Maintained and updated legacy codebases
-            * Participated in code reviews and agile ceremonies
-            * Tech stack: React, WordPress, PHP, MySQL
+            * Led RWE analytics projects across neuroscience, oncology, cardiovascular, and rare diseases
+            * Analyzed large-scale datasets including MarketScan, JMDC, MDV, hospital and registry data
+            * Developed machine learning models and statistical analyses for outcome prediction and patient stratification
+            * Built interactive dashboards (R shiny, IHD) to communicate insights to cross-functional stakeholders
+            * Supported evidence generation and decision-making for internal teams
+        - title: Data Scientist
+          company: Boobook world
+          company_url: 'https://www.boobook.world/'
+          company_logo: ''
+          location: Remote (Belgium)
+          date_start: '2018-04-01'
+          date_end: '2019-07-31'
+          description: |2-
+            * Applied advanced statistical methods (e.g., segmentation, MaxDiff, Gabor-Granger, brand mapping) to derive insights
+            * Developed reusable R functions and analytical pipelines to improve team efficiency
+            * Built dashboards (Power BI) to visualize and communicate results
+            * Collaborated with stakeholders to translate business questions into analytical solutions
+        - title: SAS Programmer
+          company: NMG Consulting
+          company_url: 'https://www.nmg-consulting.com/'
+          company_logo: ''
+          location: Kuala Lumpur, Malaysia
+          date_start: '2016-04-01'
+          date_end: '2019-07-31'
+          description: |2-
+            * Built and managed automated reporting pipelines for multiple international projects
+            * Performed statistical analysis and data validation to ensure accuracy and consistency
+            * Improved reporting efficiency through process automation and optimization
+            * Supported ad hoc analytical requests and data investigation
+        - title: Research Assistant
+          company: Universiti Putra Malaysia
+          company_url: 'https://upm.edu.my/'
+          company_logo: ''
+          location: Serdang, Malaysia
+          date_start: '2013-09-01'
+          date_end: '2015-08-31'
+          description: |2-
+            * Assisted in teaching SAS and R programming to undergraduate students
+            * Guided students in developing statistical programs and solving applied problems
+            * Provided support in understanding statistical concepts and data analysis workflows
+        - title: Demonstrator
+          company: Universiti Putra Malaysia
+          company_url: 'https://upm.edu.my/'
+          company_logo: ''
+          location: Serdang, Malaysia
+          date_start: '2013-01-01'
+          date_end: '2013-06-30'
+          description: |2-
+            * Conducted tutorial sessions and guided students in solving statistical problems
+            * Explained core statistical concepts and methodologies through practical examples
+            * Provided one-on-one academic support to improve student understanding
     design:
       columns: '1'
       background:
@@ -234,12 +271,12 @@ sections:
     content:
       title: "Open to Opportunities"
       text: |-
-        I'm currently looking for **senior engineering** or **tech lead** roles.
+        I'm open to opportunities in **Real-World Evidence (RWE) data scientist**, **Machine learning in healthcare**, or **biomedical data scientist** roles.
         
-        Let's connect and discuss how I can help your team.
+        Feel free to reach out for collaboration or roles.
       button:
         text: 'Download Resume'
-        url: uploads/resume.pdf
+        url: uploads/CV - REBECCA LOO TING JIIN.pdf
         new_tab: true
     design:
       card:
