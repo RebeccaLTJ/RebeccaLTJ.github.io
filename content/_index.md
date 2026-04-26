@@ -99,7 +99,7 @@ sections:
             - name: R
               icon: devicon/r
             - name: SAS
-              icon: hero/circle-stack
+              icon: hero/chart-bar
             - name: SQL
               icon: devicon/mysql
             - name: HPC
@@ -108,10 +108,10 @@ sections:
           items:
             - name: Real-World Evidence
               icon: hero/circle-stack
-            - name: Parkinson's Disease
-              icon: hero/heart
             - name: Neurodegenerative Disorders
               icon: hero/brain
+            - name: Oncology
+              icon: hero/magnifying-glass
     design:
       style: grid
       show_levels: false
@@ -222,7 +222,7 @@ sections:
           dark: "#0d0d12"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
-  
+
   # Recent Blog Posts
   - block: collection
     id: blog
@@ -239,6 +239,28 @@ sections:
     design:
       view: card
       columns: 3
+      background:
+        color:
+          light: "#f5f5f5"
+          dark: "#08080c"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
+  
+  # Recent Publications
+  - block: collection
+    id: publications
+    content:
+      title: Publications
+      subtitle: Peer-reviewed research outputs
+      filters:
+        folders:
+          - publications
+        exclude_featured: false
+      count: 10
+      order: desc
+    design:
+      view: citation
+      columns: 1
       background:
         color:
           light: "#f5f5f5"
