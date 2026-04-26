@@ -2,99 +2,107 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Rebecca Loo Ting Jiin
+  given: Rebecca
+  family: Loo
 postnominals: []
 status:
   icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Full-Stack Developer
-email: alex@example.com
+role: Postdoctoral Researcher | Data Scientist
+email: jiinjiinloo@gmail.com
 bio: |
-  Full-stack developer with 5+ years of experience building scalable web applications.
-  Passionate about modern JavaScript, cloud architecture, and creating delightful user experiences.
+  Researcher working on Parkinson’s disease using machine learning, survival analysis, and real-world data.
+  Focused on multi-cohort analysis, biomarker discovery, and interpretable models for disease progression.
 
 affiliations:
-  - name: Tech Corp
-    url: https://techcorp.example.com
+  - name: Luxembourg Centre for Systems Biomedicine (LCSB)
+    url: https://www.uni.lu/lcsb-en/
 
 links:
   - icon: at-symbol
-    url: mailto:alex@example.com
+    url: mailto:jiinjiinloo@gmail.com
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/alexjohnson
+    url: https://github.com/RebeccaLTJ
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnson/
-  - icon: brands/x
-    url: https://x.com/alexjohnson
+    url: https://www.linkedin.com/in/rebecca-loo-ting-jiin-75a53413a/
 
 interests:
-  - Web Development
-  - Cloud Architecture
-  - Open Source
-  - Developer Experience
+  - Machine Learning in Healthcare
+  - Neurodegenerative Disorders
+  - Real-World Evidence
+  - Multi-Omics Data Integration
 
 education:
-  - degree: B.S. Computer Science
-    institution: State University
-    start: 2015-09-01
-    end: 2019-05-31
+  - degree: PhD in Natural Sciences (Biomedical Data Science)
+    institution: University of Luxembourg
+    start: 2022-02-01
+    end: 2025-03-31
     summary: |
-      Focus on software engineering and distributed systems.
-      Senior project on distributed caching systems.
-    button:
-      text: View Project
-      url: https://github.com/alexjohnson/senior-project
-      icon: brands/github
+      Conducted research in biomedical data science, focusing on predictive modeling and cross-cohort analysis in neurodegenerative diseases.
 
 experience:
-  - role: Senior Software Engineer
-    org: Tech Corp
-    start: 2023-01-01
+  - role: Postdoctoral Researcher
+    org: Luxembourg Centre for Systems Biomedicine (LCSB)
+    start: 2025-04-01
     summary: |
-      Lead development of microservices architecture serving 1M+ users.
-      Improved API response time by 40% through optimization.
-      Mentored team of 5 junior developers.
-  - role: Full-Stack Developer
-    org: Startup Inc
-    start: 2021-06-01
-    end: 2022-12-31
+      Developing multi-scale machine learning frameworks integrating clinical and multi-omics data.
+      Applying causal machine learning and network-based approaches for disease modelling.
+      
+  - role: Doctoral Researcher
+    org: Luxembourg Centre for Systems Biomedicine (LCSB)
+    start: 2022-02-01
+    end: 2025-03-31
     summary: |
-      Built and deployed 3 production applications from scratch.
-      Implemented CI/CD pipeline reducing deployment time by 60%.
-      Led migration from monolith to microservices architecture.
-  - role: Junior Developer
-    org: Web Agency
-    start: 2020-01-01
-    end: 2021-05-31
+      Applied machine learning and survival analysis to identify predictors of Parkinson’s disease complications across cohorts.
+
+  - role: Real-World Evidence Data Scientist
+    org: Novartis
+    start: 2019-07-15
+    end: 2021-11-30
     summary: |
-      Developed client websites using React and modern web technologies.
-      Participated in code reviews and agile ceremonies.
+      Conducted real-world data analysis and developed statistical models to support evidence generation in healthcare.
+
+  - role: Data Scientist
+    org: Boobook world
+    start: 2018-04-01
+    end: 2019-07-14
+    summary: |
+      Supported client-facing analytics projects and contributed to the development of reusable data science solutions.
+
+  - role: SAS Programmer
+    org: NMG Consulting
+    start: 2016-04-01
+    end: 2019-07-14
+    summary: |
+      Developed and maintained analytical reporting systems for large-scale financial and insurance datasets.
 
 skills:
-  - name: Development
+  - name: Methods
     items:
-      - label: TypeScript
-        level: 5
-      - label: React
-        level: 5
-      - label: Node.js
-        level: 5
+      - label: Machine Learning
+      - label: Statistical Modeling
+      - label: Causal Inference
+      - label: Bioinformatics
+      - label: Deep Learning
+  - name: Tools
+    items:
       - label: Python
-        level: 4
-  - name: DevOps
-    items:
-      - label: Docker
-        level: 4
-      - label: AWS
-        level: 4
-      - label: CI/CD
-        level: 5
+      - label: R
+      - label: SAS
+      - label: SQL
 
 languages:
   - name: English
-    level: 5
-    label: Native
+  - name: Chinese
+  - name: Bahasa Melayu
+  - name: Cantonese
+  - name: Hokkien
+  - name: German
 
-awards: []
+awards:
+  - title: "Winner – Business Development Hackathon"
+    date: 2022-05-20
+    issuer: "SECURITYMADEIN.LU"
+    url: "https://www.securitymadein.lu/cyber/news/a-successful-mayyoursourcebeopen-hackathon/"
+    summary: "Winner of the Business Development Hackathon 2022 organized by SECURITYMADEIN.LU."
