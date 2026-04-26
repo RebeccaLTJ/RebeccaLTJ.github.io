@@ -1,4 +1,4 @@
-# Rebecca Looting Jiin – Research Portfolio
+# Rebecca Loo Ting Jiin – Research Portfolio
 
 This repository contains my personal academic and research portfolio.
 
