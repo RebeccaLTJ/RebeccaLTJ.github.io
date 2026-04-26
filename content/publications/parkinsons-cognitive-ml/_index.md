@@ -2,7 +2,7 @@
 title: "Multi-cohort machine learning identifies predictors of cognitive impairment in Parkinson’s disease"
 
 authors:
-  - Rebecca Looting Jiin
+  - R.T.J. Loo
   - L. Pavelka
   - G. Mangone
   - F. Khoury
