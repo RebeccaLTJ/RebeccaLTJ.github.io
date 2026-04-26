@@ -6,6 +6,8 @@ name:
   given: Rebecca
   family: Loo
 postnominals: []
+avatar:
+  filename: me.png
 status:
   icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
 role: Postdoctoral Researcher | Data Scientist
