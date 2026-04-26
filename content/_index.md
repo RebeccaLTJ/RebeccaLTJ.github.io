@@ -7,7 +7,7 @@ type: landing
 
 sections:
   # Developer Hero - Gradient background with name, role, social, and CTAs
-  - block: dev-hero
+  - block: hero
     id: hero
     content:
       username: me
@@ -16,12 +16,12 @@ sections:
       show_scroll_indicator: true
       typewriter:
         enable: true
-        prefix: "I work on"
+        prefix: "I apply"
         strings:
-          - "machine learning in healthcare"
-          - "Parkinson's disease research"
-          - "real-world evidence"
-          - "open source tools"
+          - "machine learning to Parkinson's disease"
+          - "statistical modelling to real-world data"
+          - "causal gene regulatory networks"
+          - "multi-cohort and multi-omics data analysis"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
@@ -48,7 +48,7 @@ sections:
     id: projects
     content:
       title: "Research Projects"
-      subtitle: "Machine learning and statistical modeling in Parkinson's disease"
+      subtitle: "Machine learning and statistical modelling in Parkinson's disease"
       count: 0
       filters:
         folders:
@@ -87,31 +87,31 @@ sections:
         - name: Methods
           items:
             - name: Machine Learning
-              icon: devicon/typescript
+              icon: hero/cpu-chip
             - name: Longitudinal Data Analysis
-              icon: devicon/javascript
+              icon: hero/chart-bar
             - name: Gene regulatory network
-              icon: devicon/python
+              icon: hero/share
         - name: Tools
           items:
             - name: Python
               icon: devicon/python
             - name: R
-              icon: devicon/nextjs
+              icon: devicon/r
             - name: SAS
-              icon: devicon/tailwindcss
+              icon: hero/circle-stack
             - name: SQL
-              icon: devicon/alpinejs
+              icon: devicon/mysql
             - name: HPC
-              icon: devicon/alpinejs
+              icon: hero/server
         - name: Domains
           items:
             - name: Real-World Evidence
-              icon: devicon/nodejs
+              icon: hero/circle-stack
             - name: Parkinson's Disease
-              icon: devicon/express
+              icon: hero/heart
             - name: Neurodegenerative Disorders
-              icon: devicon/postgresql
+              icon: hero/brain
     design:
       style: grid
       show_levels: false
@@ -140,7 +140,7 @@ sections:
             * Develop knowledge-guided and multi-scale machine learning frameworks integrating clinical data and multi-omics data
             * Construct and analyze gene regulatory networks to enhance biological interpretability
             * Apply causal machine learning approaches to identify robust risk factor across heterogeneous datasets
-            * Integrate high-dimensional data (e.g., transcriptomics, metabolomics) for disease modeling and patient stratification
+            * Integrate high-dimensional data (e.g., transcriptomics, metabolomics) for disease modelling and patient stratification
             * Collaborate with interdisciplinary teams across computational biology, data science, and clinical research
         - title: Doctoral Researcher
           company: Luxembourg Centre for Systems Biomedicine (LCSB)
@@ -228,7 +228,7 @@ sections:
     id: blog
     content:
       title: Recent Posts
-      subtitle: 'Thoughts on web development, tech, and more'
+      subtitle: "Machine learning, real-world data, and Parkinson's disease"
       text: ''
       filters:
         folders:
@@ -251,11 +251,16 @@ sections:
     id: contact
     content:
       title: Get In Touch
-      subtitle: "Let's build something amazing together"
+      subtitle: "Research collaboration and career opportunities"
       text: |-
-        I'm always interested in hearing about new projects and opportunities.
-        Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
-      email: alex@example.com
+        I am open to opportunities in:
+        - Machine learning in healthcare
+        - Real-world evidence and pharmaceutical data science
+        - Neurodegenerative disease research
+        - Bioinformatics
+
+        Feel free to reach out for collaboration or roles.
+      email: jiinjiinloo@gmail.com
       autolink: true
     design:
       columns: '1'
@@ -276,7 +281,7 @@ sections:
         Feel free to reach out for collaboration or roles.
       button:
         text: 'Download Resume'
-        url: uploads/CV - REBECCA LOO TING JIIN.pdf
+        url: uploads/CV_REBECCA_LOO_TING_JIIN.pdf
         new_tab: true
     design:
       card:
