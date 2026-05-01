@@ -10,7 +10,7 @@ avatar:
   filename: me.png
 status:
   icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Postdoctoral Researcher | Data Scientist
+role: Postdoctoral Researcher | Machine Learning Scientist | Data Scientist
 email: jiinjiinloo@gmail.com
 bio: |
   Researcher working on Parkinson’s disease using machine learning, survival analysis, and real-world data.
