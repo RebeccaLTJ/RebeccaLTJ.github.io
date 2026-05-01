@@ -13,18 +13,15 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Rebecca Loo Ting Jiin"
     # Legal entity for copyright notices (defaults to name if not set)
     organization: ""
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "Full-Stack Developer"
+    tagline: "Postdoctoral Researcher | Machine Learning Scientist | Data Scientist"
     # Site meta description for search engines and social sharing
-    description: "Modern developer portfolio showcasing web development projects, technical blog posts, and open source contributions. Built with Hugo Blox."
-    # Social accounts (used for meta tags like Twitter Cards)
-    social:
-      twitter: "yourusername"              # Twitter/X handle for Twitter Cards (without @)
+    description: "Postdoctoral researcher and data scientist specializing in machine learning, real-world evidence, and Parkinson’s disease. Experienced in multi-cohort analysis, biomarker discovery, and biomedical data science."
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
