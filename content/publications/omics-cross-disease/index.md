@@ -25,5 +25,5 @@ tags:
 
 links:
   - name: DOI
-    url: https://doi.org/10.1002/wcms.70042Digital Object Identifier (DOI)
+    url:  https://doi.org/10.1002/wcms.70042
 ---
