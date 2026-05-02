@@ -7,7 +7,7 @@ type: landing
 
 sections:
   # Developer Hero - Gradient background with name, role, social, and CTAs
-  - block: hero
+  - block: dev-hero
     id: hero
     content:
       username: me
