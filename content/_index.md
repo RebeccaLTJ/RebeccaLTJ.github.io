@@ -276,7 +276,7 @@ sections:
       subtitle: "Research collaboration and career opportunities"
       text: |-
         I am open to opportunities in:
-        - Machine learning in healthcare
+        - Machine learning scientist
         - Real-world evidence and pharmaceutical data science
         - Neurodegenerative disease research
         - Bioinformatics
