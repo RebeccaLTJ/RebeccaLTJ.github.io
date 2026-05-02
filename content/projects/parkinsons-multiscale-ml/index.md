@@ -1,167 +1,64 @@
 ---
-title: "TaskFlow - Project Management Tool"
+title: "Multi-Scale Machine Learning for Biomarker Discovery in Parkinson’s Disease"
 date: 2024-09-20
-summary: "Real-time collaborative task management application with drag-and-drop Kanban boards and team features"
+summary: "Integration of multi-omics and clinical data using machine learning and network-based approaches to identify interpretable biomarker signatures in Parkinson’s disease progression."
 tags:
   - bioinfo
-tech_stack:
-  - Next.js
-  - TypeScript
-  - Prisma
-  - PostgreSQL
-  - WebSockets
-  - Tailwind CSS
-links:
-  - type: github
-    url: https://github.com/alexjohnson/taskflow
-    label: Code
-  - type: live
-    url: https://taskflow-demo.example.com
-    label: Demo
+  - ML
 featured: true
-status: "Live"
-role: "Solo Developer"
-duration: "2 months"
+status: "Ongoing"
+role: "Bioinformatician / Data Scientist"
+duration: "1 year"
 team_size: 1
 highlights:
-  - "Real-time collaboration with WebSockets"
-  - "2000+ active users"
-  - "Featured on Product Hunt"
+  - "Single-nucleus RNA-seq (snRNA-seq) analysis of Parkinson's disease"
+  - "Machine learning models with Bayesian optimization for hyperparameter tuning"
+  - "Gene regulatory network inference to identify upstream transcriptional regulators"
+  - "Integration of network biology with predictive modeling for biomarker discovery"
 ---
 
-A modern, intuitive task management tool built for remote teams. Features real-time collaboration, customizable workflows, and beautiful UI.
+This project develops a multi-scale computational framework integrating single-nucleus RNA sequencing (snRNA-seq) data with machine learning and gene regulatory network (GRN) inference to investigate molecular mechanisms underlying Parkinson’s disease (PD).
 
 ## Overview
 
-TaskFlow was born out of frustration with existing project management tools being either too complex or lacking essential features. I built a solution that's powerful yet simple to use.
+Parkinson’s disease is a complex neurodegenerative disorder characterized by heterogeneous cellular and molecular alterations across brain cell types. This project leverages snRNA-seq data to compare Parkinson’s disease and control samples, aiming to identify transcriptional dysregulation patterns and robust biomarker signatures.
 
-## Key Features
+Rather than focusing solely on predictive performance, the framework emphasizes **biological interpretability**, integrating machine learning with network-based inference to uncover upstream regulatory mechanisms driving disease-associated expression changes.
 
-### Core Functionality
-- **Kanban Boards** - Drag-and-drop interface for visual task management
-- **Real-Time Sync** - See changes instantly as team members update tasks
-- **Multiple Views** - Switch between Kanban, List, and Calendar views
-- **Task Details** - Rich descriptions, attachments, comments, and checklists
-- **Labels & Filters** - Organize and find tasks quickly
+## Methodological Approach
 
-### Collaboration
-- **Team Workspaces** - Separate spaces for different projects/teams
-- **@Mentions** - Tag team members in comments for notifications
-- **Activity Feed** - Track all changes and updates
-- **Permissions** - Role-based access control (admin, member, viewer)
+### Single-Nucleus RNA-seq Analysis
+- Preprocessing and quality control of snRNA-seq data from Parkinson’s disease and control samples  
+- Differential expression analysis across cell types and conditions  
+- Cell-type–resolved characterization of disease-associated transcriptional changes  
 
-### Productivity
-- **Keyboard Shortcuts** - Power user features for faster navigation
-- **Templates** - Reusable board templates for common workflows
-- **Due Dates & Reminders** - Never miss a deadline
-- **Time Tracking** - Built-in timer for task duration tracking
+### Machine Learning with Bayesian Optimization
+- Supervised classification of Parkinson’s disease vs control samples  
+- Feature selection in high-dimensional gene expression space  
+- Hyperparameter tuning using **Bayesian optimization** to improve model stability and generalization  
+- Model evaluation across cross-validation frameworks to ensure robustness  
 
-## Technical Implementation
+### Gene Regulatory Network (GRN) Inference
+- Construction of gene regulatory networks from snRNA-seq expression profiles  
+- Identification of **putative upstream transcriptional regulators** driving disease-associated gene expression programs  
+- Integration of network topology with differential expression signals  
+- Prioritization of regulatory hubs associated with Parkinson’s disease pathology  
 
-### Real-Time Features
-Used WebSockets (Socket.io) for instant updates across all connected clients. Implemented optimistic UI updates for snappy user experience even before server confirmation.
+## Key Contributions
 
-### Drag & Drop
-Built custom drag-and-drop using react-beautiful-dnd with smooth animations and mobile touch support.
+- Developed an integrated machine learning + network biology framework for snRNA-seq analysis  
+- Identified candidate upstream regulators potentially associated with Parkinson’s disease transcriptional dysregulation  
+- Demonstrated how Bayesian optimization improves model robustness in high-dimensional biological datasets  
+- Linked predictive signals with mechanistic network interpretation for biomarker discovery  
 
-### Performance
-- Implemented virtual scrolling for boards with 1000+ tasks
-- Optimized database queries with proper indexing
-- Used Redis for session storage and caching
-- Image optimization with Next.js Image component
+## Impact
 
-### Authentication
-- Secure auth with NextAuth.js
-- Support for email/password and OAuth (Google, GitHub)
-- JWT tokens with automatic refresh
-
-## Architecture
-
-Built as a modern monolith with Next.js API routes:
-
-```
-┌─────────────┐     ┌──────────────┐     ┌─────────────┐
-│  Next.js    │────▶│   API Routes │────▶│ PostgreSQL  │
-│  (React)    │     │  (REST/WS)   │     │  + Prisma   │
-└─────────────┘     └──────────────┘     └─────────────┘
-       │                    │
-       │             ┌──────▼───────┐
-       └────────────▶│  Socket.io   │
-                     │  (Real-Time) │
-                     └──────────────┘
-```
-
-## Challenges Solved
-
-### Real-Time Conflicts
-**Problem**: Multiple users editing same task simultaneously
-
-**Solution**: Implemented operational transformation (OT) for conflict resolution and last-write-wins strategy with conflict notifications
-
-### Mobile Performance
-**Problem**: Drag-and-drop laggy on mobile devices
-
-**Solution**: Optimized touch handlers and reduced re-renders using React.memo and useMemo
-
-### Scale
-**Problem**: Growing user base causing performance issues
-
-**Solution**: Added Redis caching layer and optimized database queries, reducing response time by 65%
-
-## Results
-
-- 📈 **Users**: 2000+ active users within 3 months
-- ⭐ **Product Hunt**: Featured and received 200+ upvotes
-- 🚀 **Performance**: Sub-100ms API response times
-- 💯 **Uptime**: 99.8% uptime since launch
-- 📱 **Mobile**: 40% of traffic from mobile devices
-
-## Tech Stack
-
-**Frontend**
-- Next.js 14 (App Router)
-- TypeScript
-- Tailwind CSS
-- Framer Motion (animations)
-- React Beautiful DnD
-
-**Backend**
-- Next.js API Routes
-- Prisma ORM
-- PostgreSQL
-- Socket.io for WebSockets
-- NextAuth.js for authentication
-
-**Infrastructure**
-- Vercel for hosting
-- Supabase for PostgreSQL
-- Redis Cloud for caching
-- AWS S3 for file storage
-
-## User Feedback
-
-> "Finally, a task manager that doesn't get in my way. The real-time updates are magical!" - Sarah K., Product Manager
-
-> "We switched from Trello and haven't looked back. TaskFlow is faster and more intuitive." - Mike R., Engineering Lead
-
-## Open Source
-
-TaskFlow is open source! Contributions welcome.
-
-**License**: MIT  
-**GitHub**: [alexjohnson/taskflow](https://github.com/alexjohnson/taskflow)  
-**Demo**: [Try it live](https://taskflow-demo.example.com)
-
-## What's Next
-
-Currently working on:
-- [ ] Mobile apps (iOS & Android)
-- [ ] Gantt chart view
-- [ ] Advanced reporting and analytics
-- [ ] API for third-party integrations
-- [ ] Offline mode support
+This work contributes to:
+- Improved understanding of cell-type–specific molecular mechanisms in Parkinson’s disease  
+- Identification of interpretable biomarker candidates grounded in regulatory biology  
+- A scalable framework combining machine learning and gene regulatory network inference for single-cell transcriptomic studies  
+- Foundations for future translational biomarker and target discovery studies
 
 ---
 
-**Status**: ✅ Live & Actively Maintained  
-**Try it**: [taskflow-demo.example.com](https://taskflow-demo.example.com)
+**Status**: Ongoing research
