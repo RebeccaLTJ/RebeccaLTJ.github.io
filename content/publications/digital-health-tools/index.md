@@ -2,24 +2,11 @@
 title: "Recommendations for successful development and implementation of digital health technology tools"
 
 authors:
-  - R.T.J. Loo
-  - F. Nasta
-  - M. Macchi
-  - A. Baudot
-  - F. Burstein
-  - R. Bove
-  - M. Greve
-  - H. Fröhlich
-  - S. Khalid
-  - A. Küderle
-  - S. L. Moore
-  - V. Storms
-  - J. Torous
-  - E. Glaab
+  - me
 
 date: 2025-06-11
 
-publication_types: ["2"]
+publication_types: ["article-journal"]
 
 publication: "*Journal of Medical Internet Research*"
 
