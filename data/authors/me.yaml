@@ -10,11 +10,11 @@ avatar:
   filename: me.png
 status:
   icon: "💻"  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Postdoctoral Researcher | Machine Learning Scientist | Data Scientist
+role: Data Scientist
 email: jiinjiinloo@gmail.com
 bio: |
-  Researcher working on Parkinson’s disease using machine learning, survival analysis, and real-world data.
-  Focused on multi-cohort analysis, biomarker discovery, and interpretable models for disease progression.
+  Biomedical data scientist with 5+ years of experience, specializing in machine learning and real-world evidence (RWE) in healthcare.
+  Focused on gene regulatory networks, biomarker discovery, and interpretable models for disease progression.
 
 affiliations:
   - name: Luxembourg Centre for Systems Biomedicine (LCSB)
