@@ -26,4 +26,6 @@ social:
     link: https://github.com/RebeccaLTJ
   - icon: linkedin
     link: https://www.linkedin.com/in/rebecca-loo-ting-jiin-75a53413a/
+  - icon: academicons/orcid
+    link: https://orcid.org/0000-0002-7566-1677
 ---
