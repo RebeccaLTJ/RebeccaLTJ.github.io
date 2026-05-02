@@ -99,9 +99,9 @@ sections:
             - name: R
               icon: devicon/r
             - name: SAS
-              icon: hero/chart-bar
+              icon: hero/cpu-chip
             - name: SQL
-              icon: devicon/mysql
+              icon: hero/circle-stack
             - name: HPC
               icon: hero/server
         - name: Domains
