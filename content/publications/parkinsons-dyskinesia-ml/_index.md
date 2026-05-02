@@ -14,7 +14,7 @@ authors:
 
 date: 2024-07-03
 
-publication_types: ["2"]
+publication_types: ["article-journal"]
 
 publication: "*Parkinsonism & Related Disorders*"
 
