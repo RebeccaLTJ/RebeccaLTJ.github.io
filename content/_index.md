@@ -275,10 +275,10 @@ sections:
       title: Get In Touch
       subtitle: "Research collaboration and career opportunities"
       text: |-
-        I am open to opportunities in:
-        - Machine learning scientist
-        - Real-world evidence and pharmaceutical data science
-        - Neurodegenerative disease research
+        I am open to opportunities in:\n
+        - Machine learning scientist\n
+        - Real-world evidence and pharmaceutical data science\n
+        - Neurodegenerative disease research\n
         - Bioinformatics
 
         Feel free to reach out for collaboration or roles.
