@@ -48,7 +48,7 @@ sections:
     id: projects
     content:
       title: "Research Projects"
-      subtitle: "Machine learning and statistical modelling in Parkinson's disease"
+      subtitle: "Machine learning, causal network analysis, statistical modelling"
       count: 0
       filters:
         folders:
