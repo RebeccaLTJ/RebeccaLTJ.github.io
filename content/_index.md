@@ -275,11 +275,7 @@ sections:
       title: Get In Touch
       subtitle: "Research collaboration and career opportunities"
       text: |-
-        I am open to opportunities in:\n
-        - Machine learning scientist\n
-        - Real-world evidence and pharmaceutical data science\n
-        - Neurodegenerative disease research\n
-        - Bioinformatics
+        I am open to opportunities in, machine learning scientist, real-world evidence, biomedical data science, neurodegenerative disease research, bioinformatics
 
         Feel free to reach out for collaboration or roles.
       email: jiinjiinloo@gmail.com
