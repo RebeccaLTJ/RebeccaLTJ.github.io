@@ -28,9 +28,11 @@ links:
     url: https://github.com/RebeccaLTJ
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/rebecca-loo-ting-jiin-75a53413a/
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-7566-1677
 
 interests:
-  - Machine Learning in Healthcare
+  - Machine Learning
   - Neurodegenerative Disorders
   - Real-World Evidence
   - Multi-Omics Data Integration
@@ -42,6 +44,20 @@ education:
     end: 2025-03-31
     summary: |
       Conducted research in biomedical data science, focusing on predictive modeling and cross-cohort analysis in neurodegenerative diseases.
+  - degree: Master of Science (Survival Analysis)
+    institution: Universiti Putra Malaysia
+    start: 2013-09-01
+    end: 2016-02-28
+    summary: |
+      Specialized in survival and longitudinal data analysis, with a focus on semi-parametric modeling.
+      Master’s thesis developed robust methods for influential diagnostics in semi-parametric and stratified survival models, evaluated through simulation studies and validated using real-world healthcare data.
+  - degree: Bachelor of Science (Hons) Statistics
+    institution: Universiti Putra Malaysia
+    start: 2009-08-01
+    end: 2016-06-30
+    summary: |
+      Built a strong foundation in statistical theory, probability, and applied data analysis.
+      Bachelor’s thesis investigated influential diagnostics based on residual analysis in Cox proportional hazards models using cardiovascular data from Hospital Serdang.
 
 experience:
   - role: Postdoctoral Researcher
