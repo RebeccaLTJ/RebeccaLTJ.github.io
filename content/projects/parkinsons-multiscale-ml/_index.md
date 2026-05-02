@@ -9,6 +9,12 @@ tags:
   - RWE
 
 date: 2025-01-01
+
+image:
+  filename: featured.png
+
+authors:
+  - me
 ---
 
 This project develops a multi-scale analytical framework integrating clinical data with multi-omics data to study Parkinson’s disease.
