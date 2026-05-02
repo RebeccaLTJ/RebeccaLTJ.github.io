@@ -62,6 +62,8 @@ sections:
           tag: RWE
         - name: Bioinformatics
           tag: bioinfo
+        - name: Statistics
+          tag: stat
       default_button_index: 0
       # Archive link auto-shown if more projects exist than 'count' above
       # archive:
