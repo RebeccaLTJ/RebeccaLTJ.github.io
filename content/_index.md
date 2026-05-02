@@ -298,7 +298,7 @@ sections:
     content:
       title: "Open to Opportunities"
       text: |-
-        I'm open to opportunities in **Real-World Evidence (RWE) data scientist**, **Machine learning in healthcare**, or **biomedical data scientist** roles.
+        I'm open to opportunities in **Real-World Evidence (RWE) data scientist**, **Machine learning scientist**, or **biomedical data scientist** roles.
         
         Feel free to reach out for collaboration or roles.
       button:
